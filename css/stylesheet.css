@@ -38,12 +38,13 @@ h2 {
     font-size: 18px;
   }
 
-h2.link {
+h2.link, h2.imgheading {
     font-size: 25px;
+    color: rgb(77, 77, 77);
   }
 
 a {
-    color: rgb(107, 107, 107);
+    color: rgb(77, 77, 77);
     text-decoration: none;
   }
 
@@ -65,4 +66,27 @@ a:hover {
   border-width: 1.5px;
   border-color: rgb(126, 61, 61);
   border-radius: 10px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 8px;
+}
+
+ul li {
+  font-size: 13px;
+}
+
+.images {
+  padding: 3rem;
+}
+
+img {
+  display: inline-block;
+  max-width: 400px;
+  padding: 20px;
 }

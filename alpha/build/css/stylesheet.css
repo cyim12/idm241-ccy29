@@ -54,9 +54,19 @@ a:hover {
   text-decoration: underline;
   }
 
-.build {
-    opacity:0;
-}
+#build {
+    width: 1200px;
+    min-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+.image{
+    opacity: 0;
+    animation-delay: none;
+  }
 
 .microix {
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -102,3 +112,4 @@ img {
   max-width: 400px;
   padding: 20px;
 }
+

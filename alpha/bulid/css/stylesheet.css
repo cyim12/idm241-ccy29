@@ -34,11 +34,11 @@ h1 {
   font-size: 30px;
   }
 
-h2 {
+h2.name {
   font-size: 18px;
   }
 
-h2.link, h2.imgheading {
+h2.link {
   font-size: 25px;
   color: rgb(77, 77, 77);
   }
@@ -49,10 +49,14 @@ a {
   }
 
 a:hover {
-  color: rgb(110, 71, 71);
+  color: rgb(77, 35, 35);
   transition-duration: 400ms;
   text-decoration: underline;
   }
+
+.build {
+    opacity:0;
+}
 
 .microix {
   grid-template-columns: 1fr 1fr 1fr 1fr;

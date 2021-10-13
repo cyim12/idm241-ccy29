@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'josefin_sans';
+  src: url('../fonts/JosefinSans/josefinsans-bold-webfont.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  }
+  
+@font-face {
+  font-family: 'josefin_sans';
+  src: url('../fonts/JosefinSans/josefinsans-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  }
+
+body {
+  margin: 5%;
+  font-family: 'josefin_sans', sans-serif;
+  font-weight: normal;
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  }
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  }
+
+h1 {
+  font-size: 30px;
+  }
+
+h2 {
+  font-size: 18px;
+  }
+
+h2.link, h2.imgheading {
+  font-size: 25px;
+  color: rgb(77, 77, 77);
+  }
+
+a {
+  color: rgb(77, 77, 77);
+  text-decoration: none;
+  }
+
+a:hover {
+  color: rgb(110, 71, 71);
+  transition-duration: 400ms;
+  text-decoration: underline;
+  }
+
+.microix {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  padding-top: 2rem;
+  display: flex;   
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.element {
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgb(126, 61, 61);
+  border-radius: 10px;
+  margin: 10px;
+  width: 14rem;
+  height: 21rem;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 8px;
+}
+
+ul li {
+  font-size: 15px;
+  text-align: left;
+  padding: 7px;
+}
+
+.images {
+  padding: 3rem;
+}
+
+img {
+  display: inline-block;
+  max-width: 400px;
+  padding: 20px;
+}

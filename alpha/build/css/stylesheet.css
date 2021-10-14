@@ -57,8 +57,8 @@ a:hover {
 #build {
     width: 1200px;
     min-height: 200px;
-    margin: 0 auto;
-    display: flex;
+    margin: 4rem;
+    display: 0 auto;
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -66,6 +66,11 @@ a:hover {
 .image{
     opacity: 0;
     animation-delay: none;
+    position: relative;
+  }
+
+  #zaraimg{
+    cursor: pointer;
   }
 
 .microix {

@@ -12,7 +12,7 @@ function fadeBox () {
   const currentScroll = window.pageYOffset+600;
   if (currentScroll >= checkpoint) {
     image.animate({'opacity':1},1500);
-    setTimeout(function(){ image.style.opacity = 1; }, 400);
+    setTimeout(function(){ image.style.opacity = 1; }, 4000);
   } 
 }
 

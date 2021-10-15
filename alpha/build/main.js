@@ -11,8 +11,8 @@ function fadeBox () {
 	var image=document.getElementsByClassName("image")[0]
   const currentScroll = window.pageYOffset+600;
   if (currentScroll >= checkpoint) {
-    image.animate({'opacity':1},1500);
-    setTimeout(function(){ image.style.opacity = 1; }, 4000);
+    image.animate({'opacity':1},2000);
+    setTimeout(function(){ image.style.opacity = 1; }, 3000);
   } 
 }
 

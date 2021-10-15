@@ -54,14 +54,14 @@ a:hover {
   text-decoration: underline;
   }
 
-#build {
+  #build {
     width: 1200px;
     min-height: 200px;
-    margin: 4rem;
-    display: 0 auto;
+    margin: 0 auto;
+    display: inline;
     justify-content: center;
     flex-wrap: wrap;
-  }
+}
   
 .image{
     opacity: 0;
@@ -90,7 +90,7 @@ a:hover {
   border-radius: 10px;
   margin: 10px;
   width: 14rem;
-  height: 21rem;
+  height: 24rem;
 }
 
 h3 {

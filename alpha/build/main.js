@@ -1,29 +1,15 @@
-var build = document.getElementById("build");
-var fadedIn = false;
-var height,
-		half;
-
-window.addEventListener("resize", adjustHeightVars);
-window.addEventListener("scroll", fadeBox);
-const checkpoint = 300;
-
-function fadeBox () {	
-	var image=document.getElementsByClassName("image")[0]
-  const currentScroll = window.pageYOffset+600;
-  if (currentScroll >= checkpoint) {
-    image.animate({'opacity':1},2000);
-    setTimeout(function(){ image.style.opacity = 1; }, 3000);
-  } 
+var zaraOffset = document.querySelector("ul").offsetTop;
+var raincoatVis = false;
+window.onscroll = function() {
+  if (window.pageYOffset > 0) {
+ var opac = (window.pageYOffset / zaraOffset);
+    console.log(opac);
+  if (raincoatVis == false){
+    document.getElementById('build').style.opacity = opac;
+    if (opac >= 0.9){
+      raincoatVis = true;
+    }
+  }
+    
+  }
 }
-
- 
-// window.addEventListener("scroll", () => {
-  
-// });
-
-function adjustHeightVars() {
-	height = window.innerHeight;
-	half = height * 0.35;
-}
-
-adjustHeightVars();

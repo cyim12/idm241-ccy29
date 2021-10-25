@@ -23,6 +23,7 @@ body {
   font-weight: normal;
   background-color: rgb(236, 236, 236);
   text-align: center;
+  padding-bottom: 10rem;
   }
 
 .heading {
@@ -79,8 +80,9 @@ a:hover {
   padding-top: 2rem;
   display: flex;   
   flex-wrap: wrap;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 26%;
+  margin-right: 26%;
+  max-width: 40rem;
 }
 
 .element {
@@ -89,12 +91,13 @@ a:hover {
   border-color: rgb(126, 61, 61);
   border-radius: 10px;
   margin: 10px;
-  width: 14rem;
-  height: 24rem;
+  width: 40rem;
+  height: auto;
 }
 
 h3 {
   text-decoration: underline;
+  font-size: 24px;
 }
 
 ul {
@@ -103,18 +106,14 @@ ul {
 }
 
 ul li {
-  font-size: 15px;
+  font-size: 20px;
   text-align: left;
   padding: 7px;
-}
-
-.images {
-  padding: 3rem;
 }
 
 img {
   display: inline-block;
   max-width: 400px;
-  padding: 20px;
+  padding: 40px;
 }
 

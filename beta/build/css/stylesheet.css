@@ -12,6 +12,20 @@ font-weight: normal;
 font-style: normal;
 }
 
+@font-face {
+    font-family: 'helvetica_neue';
+    src: url('../fonts/HelveticaNeue/HelveticaNeueBoldCondensed.woff2') format('woff2');
+    font-weight: bold;
+    font-style: condensed;
+}
+
+@font-face {
+    font-family: 'helvetica_neue';
+    src: url('../fonts/HelveticaNeue/HelveticaNeueCyr-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
 -webkit-text-size-adjust: 100%;
 box-sizing: border-box;
@@ -85,13 +99,14 @@ h3 {
     }
     
     ul li {
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
     padding: 7px;
     }
     
     h4 {
-    color: rgb(5, 10, 32);
+    color: rgb(105, 24, 24);
+    font-size: 20px;
     }
     
     .images {
@@ -105,7 +120,7 @@ h3 {
     }
 
 .slide-wrapper {
-    background: url("https://static.zara.net/photos///2021/I/0/1/p/3046/793/710/2/w/1500/3046793710_1_1_1.jpg?ts=1633083108644") no-repeat center center transparent;
+    background: url("/beta/build/images/alphabuild_img.jpg") no-repeat center center transparent;
     background-size: cover;
     font-family: sans-serif;
     height: 600px;
@@ -116,15 +131,15 @@ h3 {
     bottom: 0px;
     color: black;
     opacity: 0;
+    box-shadow: 0 10px 10px -6px #777;
 }
 
 .slide-wrapper:hover {
     cursor: pointer;
 }
 
-.slide-wrapper 
 .slide-text {
-    background-color: rgba(235, 235, 235, 2.5);
+    background-color: rgb(245, 245, 245);
     bottom: 0px;
     box-sizing: border-box;
     left: 0;
@@ -134,16 +149,15 @@ h3 {
     transition: top 0.3s ease 0.2s;
     width: 100%;
     z-index: 2;
+    text-align: left;
 }
 
 .test {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .slide-text:hover {
-    /* padding: 2rem; */
     cursor: pointer;
-    /* pointer-events: none; */
 }
 
 .slide-wrapper .slide-text .slide-body {
@@ -153,13 +167,41 @@ h3 {
     transition: all 1.0s ease 0s;
 }
 
-h2 {
+h2.slideshow-title {
+    font-family: helvetica_neue, Helvetica, sans-serif;
     color: black;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 2.5rem;
     margin: 0 0 10px;
     padding: 3px 0 0 0;
     text-transform: none;
+}
+
+p.price {
+    font-family: helvetica_neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+  }
+
+#dot1 {
+    background-color: #a19283;
+}
+#dot2 {
+    background-color: #636681;
+}
+#dot3 {
+    background-color: #adb8a2;
+}
+#dot4 {
+    background-color: #413d44;
 }
 
 a.button {
@@ -171,16 +213,20 @@ a.button {
     font-size: 16px;
     letter-spacing: 1px;
     padding: 0.7rem;
+    padding-top: 0.8rem;
     text-decoration: none;
     width: 35%;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 25%;
     margin-right: 25%;
+    font-family: helvetica_neue, Helvetica, sans-serif;
+    font-weight: normal;
 }
 
 a.button:hover {
-    text-decoration: underline;
+    background-color: black;
+    color: white;
 }
 
 .slide-wrapper:hover::after {

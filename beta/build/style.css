@@ -50,6 +50,15 @@ h2 {
     text-transform: none;
 }
 
+.dot {
+	height: 20px;
+	width: 20px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 6px;
+	}
+
 a.button {
     background-color: transparent;
     border: 2px solid black;

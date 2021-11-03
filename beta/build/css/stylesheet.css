@@ -120,7 +120,7 @@ h3 {
     }
 
 .slide-wrapper {
-    background: url("/beta/build/images/alphabuild_img.jpg") no-repeat center center transparent;
+    background: url("../images/alphabuild_img.jpg") no-repeat center center transparent;
     background-size: cover;
     font-family: sans-serif;
     height: 600px;

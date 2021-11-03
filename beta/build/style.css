@@ -15,6 +15,10 @@
     cursor: pointer;
 }
 
+.slideshow-text {
+    padding: 2rem;
+}
+
 .slide-wrapper 
 .slide-text {
     background-color: rgba(235, 235, 235, 2.5);
@@ -22,15 +26,13 @@
     box-sizing: border-box;
     left: 0;
     line-height: 10px;
-    padding: 0rem;
     position: absolute;
-    transition: top 0.3s ease 0.2s;
+    transition: top 0.2s ease 0s;
     width: 100%;
     z-index: 2;
 }
 
 .slide-text:hover {
-    padding: 2rem;
     cursor: pointer;
 }
 

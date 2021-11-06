@@ -1,4 +1,4 @@
-var zaraOffset = document.querySelector("ul").offsetTop;
+var zaraOffset = document.querySelector("h2").offsetTop;
 var raincoatVis = false;
 window.onscroll = function() {
   if (window.pageYOffset > 0) {

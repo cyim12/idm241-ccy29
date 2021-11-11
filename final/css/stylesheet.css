@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'josefin_sans';
+  src: url('../fonts/JosefinSans/josefinsans-bold-webfont.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  }
+  
+@font-face {
+  font-family: 'josefin_sans';
+  src: url('../fonts/JosefinSans/josefinsans-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
+    font-family: 'helvetica_neue';
+    src: url('../fonts/HelveticaNeue/HelveticaNeueBoldCondensed.woff2') format('woff2');
+    font-weight: bold;
+    font-style: condensed;
+}
+
+@font-face {
+    font-family: 'helvetica_neue';
+    src: url('../fonts/HelveticaNeue/HelveticaNeueCyr-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'didot';
+    src: url('../fonts/Didot/Didot-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'didot';
+    src: url('../fonts/Didot/Didot.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  }
+
+body {
+  margin: 5%;
+  font-family: helvetica_neue, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  }
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  }
+
+h1.zaraname {
+  text-align: left;
+  font-size: 120px;
+  letter-spacing: -40px;
+  font-weight: normal;
+  margin-left: 3rem;
+  line-height: 10%;
+  }
+
+h1 {
+  font-size: 30px;
+  font-family: 'didot', Georgia, 'Times New Roman', Times, serif;
+}
+
+h2.name {
+  font-size: 18px;
+  }
+
+h2.link {
+  font-size: 25px;
+  color: rgb(77, 77, 77);
+  }
+
+h2.imgheading {
+  padding: 3rem;
+}
+
+a {
+  color: rgb(136, 136, 136);
+  text-decoration: none;
+  }
+
+a:hover {
+  color: rgb(0, 0, 0);
+  transition-duration: 400ms;
+  text-decoration: underline;
+  }
+
+  .microix {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    padding-top: 2rem;
+    display: flex;   
+    flex-wrap: wrap;
+    margin-left: 28%;
+    margin-right: 28%;
+    max-width: 40rem;
+  }
+  
+  .element {
+    border-style: solid;
+    border-width: 0.7px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+    width: 40rem;
+    height: auto;
+  }
+
+/* .microix {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  padding-top: 2rem;
+  display: flex;   
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 200px;
+}
+
+.element {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgb(126, 61, 61);
+  border-radius: 10px;
+  margin: 10px;
+  width: 14rem;
+  height: 21rem;
+} */
+
+h3 {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 8px;
+}
+
+ul li {
+  font-size: 15px;
+  text-align: left;
+  padding: 7px;
+  color: rgb(80, 80, 80);
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.images {
+  padding: 3rem;
+}
+
+/* img {
+  display: inline-block;
+  max-width: 400px;
+  padding: 20px;
+} */

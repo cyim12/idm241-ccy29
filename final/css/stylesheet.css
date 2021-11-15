@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'josefin_sans';
   src: url('../fonts/JosefinSans/josefinsans-bold-webfont.woff2') format('woff2');
   font-weight: bold;
@@ -10,12 +10,19 @@
   src: url('../fonts/JosefinSans/josefinsans-regular-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-  }
+  } */
 
 @font-face {
     font-family: 'helvetica_neue';
     src: url('../fonts/HelveticaNeue/HelveticaNeueBoldCondensed.woff2') format('woff2');
     font-weight: bold;
+    font-style: condensed;
+}
+
+@font-face {
+    font-family: 'helvetica_neue';
+    src: url('../fonts/HelveticaNeue/HelveticaNeue67-MediumCondensedOblique.woff2') format('woff2');
+    font-weight: normal;
     font-style: condensed;
 }
 

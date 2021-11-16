@@ -176,3 +176,13 @@ h4 {
   max-width: 400px;
   padding: 20px;
 } */
+
+video {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* video {
+  width: fit-content;
+} */

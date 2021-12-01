@@ -281,102 +281,23 @@
     #close-modal {
         font-size: 18px;
     }
-      .images { grid-area: images; 
-        padding: 0px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
-        grid-template-areas:
-            "coat1"
-            "coat2"
-            "coat3"
-            "coat4"
-            "coat5"
-            "coat6"
-    }
-
-    .coat {
-        box-sizing: border-box;
-        cursor: pointer;
-        max-width: 30px;
-        justify-content: center;
-        align-items: center;
-        margin: 1px;
-    }
     #coat1 {
-        box-sizing: border-box;
-        grid-area: coat1;
-        background-image: url(/final/build/images/coat1.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        align-self: center;
-        padding: 35px;
-    }
-    #coat1:hover {
-        background-image: url(/final/build/images/coat1_border.svg);
+        padding: 28px;
     }
     #coat2 {
-        box-sizing: border-box;
-        grid-area: coat2;
-        background-image: url(/final/build/images/coat2.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        align-self: center;
-        padding: 35px;
-    }
-    #coat2:hover {
-        background-image: url(/final/build/images/coat2_border.svg);
+        padding: 28px;
     }
     #coat3 {
-        grid-area: coat3;
-        background-image: url(/final/build/images/coat3.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        align-self: center;
-        padding: 35px;
-    }
-    #coat3:hover {
-        background-image: url(/final/build/images/coat3_border.svg);
+        padding: 28px;
     }
     #coat4 {
-        grid-area: coat4;
-        background-image: url(/final/build/images/coat4.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        align-self: center;
-        padding: 35px;
-    }
-    #coat4:hover {
-        background-image: url(/final/build/images/coat4_border.svg);
+        padding: 28px;
     }
     #coat5 {
-        grid-area: coat5;
-        background-image: url(/final/build/images/coat5.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        align-self: center;
-        padding: 35px;
-    }
-    #coat5:hover {
-        background-image: url(/final/build/images/coat5_border.svg);
+        padding: 28px;
     }
     #coat6 {
-        grid-area: coat6;
-        background-image: url(/final/build/images/coat6.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        align-self: center;
-        padding: 35px;
-    }
-    #coat6:hover {
-        background-image: url(/final/build/images/coat6_border.svg);
-    }
-      
-    .modalImage { grid-area: modalImage;
-      background: url('/final/build/images/alphabuild_img.jpg') center center;
-      background-size: contain; 
-      background-repeat: no-repeat;
-    
+        padding: 28px;
     }
       
     .modalTitle { grid-area: modalTitle; 

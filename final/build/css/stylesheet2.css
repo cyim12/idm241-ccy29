@@ -88,74 +88,74 @@
 #coat1 {
     box-sizing: border-box;
     grid-area: coat1;
-    background-image: url(/final/build/images/coat1.jpg);
+    background-image: url(../images/coat1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
     padding: 35px;
 }
 #coat1:hover {
-    background-image: url(/final/build/images/coat1_border.svg);
+    background-image: url(../images/coat1_border.svg);
 }
 #coat2 {
     box-sizing: border-box;
     grid-area: coat2;
-    background-image: url(/final/build/images/coat2.jpg);
+    background-image: url(../images/coat2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
     padding: 35px;
 }
 #coat2:hover {
-    background-image: url(/final/build/images/coat2_border.svg);
+    background-image: url(../images/coat2_border.svg);
 }
 #coat3 {
     grid-area: coat3;
-    background-image: url(/final/build/images/coat3.jpg);
+    background-image: url(../images/coat3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
     padding: 35px;
 }
 #coat3:hover {
-    background-image: url(/final/build/images/coat3_border.svg);
+    background-image: url(../images/coat3_border.svg);
 }
 #coat4 {
     grid-area: coat4;
-    background-image: url(/final/build/images/coat4.jpg);
+    background-image: url(../images/coat4.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
     padding: 35px;
 }
 #coat4:hover {
-    background-image: url(/final/build/images/coat4_border.svg);
+    background-image: url(../images/coat4_border.svg);
 }
 #coat5 {
     grid-area: coat5;
-    background-image: url(/final/build/images/coat5.jpg);
+    background-image: url(../images/coat5.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
     padding: 35px;
 }
 #coat5:hover {
-    background-image: url(/final/build/images/coat5_border.svg);
+    background-image: url(../images/coat5_border.svg);
 }
 #coat6 {
     grid-area: coat6;
-    background-image: url(/final/build/images/coat6.jpg);
+    background-image: url(../images/coat6.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     align-self: center;
     padding: 35px;
 }
 #coat6:hover {
-    background-image: url(/final/build/images/coat6_border.svg);
+    background-image: url(../images/coat6_border.svg);
 }
   
 .modalImage { grid-area: modalImage;
-  background: url('/final/build/images/alphabuild_img.jpg') center center;
+  background: url('../images/alphabuild_img.jpg') center center;
   background-size: contain; 
   background-repeat: no-repeat;
 

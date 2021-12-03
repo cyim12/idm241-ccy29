@@ -27,3 +27,4 @@ const closeItemModalObj = document.getElementById('close-modal');
 closeItemModalObj.addEventListener('click', function(){
   itemModal.hidden = !itemModal.hidden;
 });
+

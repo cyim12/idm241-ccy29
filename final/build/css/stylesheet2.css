@@ -30,7 +30,7 @@
   font-weight: 300;
   text-align: center;
   margin: 0 auto;
-  top: 20%;
+  top: 10%;
 }
 
 .modalWrapper {
@@ -154,11 +154,17 @@
     background-image: url(../images/coat6_border.svg);
 }
   
-.modalImage { grid-area: modalImage;
+.modalImage1 { grid-area: modalImage;
   background: url('../images/alphabuild_img.jpg') center center;
   background-size: contain; 
   background-repeat: no-repeat;
 
+}
+
+.modalImage2 { grid-area: modalImage;
+  background: url('../images/coat2.jpg') center center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
   
 .modalTitle { grid-area: modalTitle; 
@@ -489,7 +495,7 @@
       font-size: 12px;
       text-align: right;
   }
-  .modalImage {
+  .modalImage1 {
     padding: 5rem;
     align-self:stretch;
     margin-bottom: 3px;
@@ -670,7 +676,7 @@
         font-size: 12px;
         text-align: right;
     }
-    .modalImage {
+    .modalImage1 {
       padding: 3rem;
       align-self:stretch;
       margin-bottom: 3px;
@@ -844,7 +850,7 @@
         float: right;
         margin-left: 16rem;
       }
-    .modalImage {
+    .modalImage1 {
       padding: 8rem;
       margin-top: 25px;
       margin-bottom: 15px;

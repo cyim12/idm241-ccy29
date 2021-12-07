@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'helvetica_neue';
+    src: url('../fonts/HelveticaNeue/HelveticaNeueBoldCondensed.woff2') format('woff2');
+    font-weight: bold;
+    font-style: condensed;
+}
+
+@font-face {
+    font-family: 'helvetica_neue';
+    src: url('../fonts/HelveticaNeue/HelveticaNeueCyr-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'didot';
+    src: url('../fonts/Didot/Didot-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'didot';
+    src: url('../fonts/Didot/Didot.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+-webkit-text-size-adjust: 100%;
+box-sizing: border-box;
+}
+
+body {
+margin: 5%;
+font-family: helvetica_neue, Helvetica, sans-serif;
+font-weight: bold;
+background-color: white;
+text-align: center;
+}
+
+.heading {
+text-align: center;
+font-weight: bold;
+}
+
+h1 {
+margin-top: 5rem;
+font-size: 30px;
+font-family: 'didot', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1.zaraname {
+text-align: left;
+font-size: 120px;
+letter-spacing: -40px;
+font-weight: normal;
+margin-left: 3rem;
+line-height: 10%;
+}
+
+h1.title {
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+h2.subheading {
+font-size: 18px;
+font-family: helvetica_neue, Helvetica, sans-serif;
+}
+
+h2.link {
+font-size: 25px;
+color: rgb(77, 77, 77);
+}
+
+a {
+color: rgb(136, 136, 136);
+text-decoration: none;
+}
+
+a:hover {
+color: black;
+transition-duration: 400ms;
+text-decoration: underline;
+}
+
+.heroImage {
+    max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img.heroImg {
+    /* object-fit:cover; */
+    width: 80%;
+}
+
+@media (max-width: 1500px) {
+    .slide-wrapper {
+        height: 550px;
+        max-width: 350px;
+        position: relative;
+        margin-left: 38%;
+        margin-right: 38%;
+        vertical-align: 50%;
+    } 
+}
+
+@media (max-width: 1160px) {
+    .slide-wrapper {
+        height: 450px;
+        max-width: 300px;
+        position: relative;
+        margin-left: 35%;
+        margin-right: 35%;
+        vertical-align: 50%;
+    } 
+
+@media (max-width: 900px) {
+    .slide-wrapper {
+        height: 450px;
+        max-width: 300px;
+        margin-left: 32%;
+        margin-right: 32%;
+    } 
+}

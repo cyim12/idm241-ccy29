@@ -64,14 +64,22 @@ h1.title {
     margin-top: 1rem;
 }
 
-h2.subheading {
-font-size: 18px;
-font-family: helvetica_neue, Helvetica, sans-serif;
+h1.subheading {
+font-size: 36px;
+font-family: 'didot', Georgia, 'Times New Roman', Times, serif;
+text-align: left;
 }
 
-h2.link {
-font-size: 25px;
-color: rgb(77, 77, 77);
+h2 {
+    font-family: helvetica_neue, Helvetica, sans-serif;
+text-align: left;
+font-size: 18px;
+}
+
+h2.name {
+    font-family: helvetica_neue, Helvetica, sans-serif;
+text-align: center;
+font-size: 20px;
 }
 
 a {
@@ -92,6 +100,63 @@ text-decoration: underline;
 }
 
 img.heroImg {
-    /* object-fit:cover; */
     width: 80%;
+}
+
+.container {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 8rem;
+}
+
+.subcontainer {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4rem;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 2rem;
+    color: rgb(73, 73, 73);
+    border-left-width: 2px;
+    border-left-style: solid;
+    padding: 15px;
+    font-family: 'Neue-Helvetica', 'Helvetica', 'Arial', Sans-Serif;
+    font-weight: normal;
+}
+
+p.caption {
+    border-left-width: none;
+    border-left-style: none;
+    font-size: 14px;
+}
+
+.zaraWebImages {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+img.zaraImgs {
+    width: 32%;
+}
+
+ul {
+    text-align: left;
+    font-size: 18px;
+    line-height: 2rem;
+    color: rgb(73, 73, 73);
+    border-left-width: 2px;
+    border-left-style: solid;
+    padding: 15px;
+    font-family: 'Neue-Helvetica', 'Helvetica', 'Arial', Sans-Serif;
+    font-weight: normal;
+    list-style: none;
+}
+
+li.indent {
+    padding-left: 4rem;
 }

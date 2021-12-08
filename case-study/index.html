@@ -28,10 +28,9 @@
         <p>The overarching goal of this project was to either redesign an existing microinteraction or create a new microinteraction. The timeline of this project was about 10 weeks, with 3 phases of the project spanning 2 to 3 weeks. The design and build of the microinteraction would be more complex with each subsequent phase. As this would be a project done individually, I took on the roles of both designing and developing the microinteraction. I decided to create a new microinteraction from scratch, drawing examples from different websites and further improving the design and build of each phase upon receiving feedback after having deliverables. For the design of the microinteraction of each phase, I used Adobe Illustrator and Adobe After Effects to create reference images and animations of what I intended for the build to look like. I would also use HTML and CSS to create a web page for each assignment to describe the details of the microinteraction. As for the build of the microinteraction of each phase, I used HTML, CSS, and JavaScript.
         </p>
         </div>
-        
     <div class="subcontainer">
         <h2>The Problem</h2>
-        <p>Once I grasped the purpose and goals of the project, the very first idea that came to mind was the Zara website. Zara is a Spanish clothing retailer based in Galicia, Spain. It is one of the biggest international fashion companies that draws in many customers through its extensive retail network. That being said, I remembered many instances when people would express their frustration using the Zara website. The current Zara website displays their products in a confusing and unorganized way, including videos, grid layouts, sporadic images on a single web page, making it difficult for users to view and learn about the products they may want to purchase. Although users are able to adjust the size and layout of the product images on the web page, a lot of these features can seem chaotic and overwhelming. Since the ultimate goal of this project was to build a microinteraction to improve user experience, I connected two and two together and decided to create a microinteraction that would allow users to gain a unique experience when viewing a product, learn more about the product including color and size options and more, and add the product to their cart efficiently.
+        <p>Once I grasped the purpose and goals of the project, the very first idea that came to mind was the Zara website. Zara is a Spanish clothing retailer based in Galicia, Spain. It is one of the biggest international fashion companies that draws in many customers through its extensive retail network. That being said, I remembered many instances when people would express their frustration using the Zara website. The current Zara website, although very unique, displays their products in a confusing and unorganized way, including videos, grid layouts, sporadic images on a single web page, making it difficult for users to view and learn about the products they may want to purchase. Although users are able to adjust the size and layout of the product images on the web page, a lot of these features can seem chaotic and overwhelming. Since the ultimate goal of this project was to build a microinteraction to improve user experience, I connected two and two together and decided to create a microinteraction that would allow users to gain a unique experience when viewing a product, learn more about the product including color and size options and more, and add the product to their cart efficiently.
         </p>
     </div>
     <div class="zaraWebImages">
@@ -40,7 +39,7 @@
             <img src="images/zaraWeb3.png" class="zaraImgs">
             <p class="caption">Screenshots of a current Zara web page: https://www.zara.com/us/en/woman-outerwear-l1184.html?v1=1882177</p>
     </div>
-    <div class="subcontainer">
+    <div class="container">
         <h2>Goals & Objectives</h2>
         <ul>
             <li>• Create an engaging, unique, and useful microinteraction to improve user experience
@@ -58,12 +57,52 @@
             </li>
         </ul>
     </div>
-    <div class="container" id="processinsight">
+    <div class="subcontainer" id="processinsight">
         <h1 class="subheading">Process</h1>
+        <p>Again, the process of designing and building the microinteraction for this project consisted of three phases, where the initial design and build would gradually become a little more complex with each phase. Each phase had two parts: the description and design and then the build. For the description, I had to define the trigger(s), rules, feedback, and loop/modes of the microinteraction. I also created reference images and animations in order to better visualize what I wanted to build out. Upon feedback, I would update the microinteraction description and move onto the next part of the phase. In order to develop the microinteractions of each phase, I pulled examples of codes online, which would help me to finalize the build.
+        </p>
+        <ul>
+            <li>The thought process behind this project is as follows:
+            </li>
+            <li class="thought">• <b>Scroll</b> → to maintain the uniqueness of the Zara website</li>
+            <li class="thought">• <b>Hover modal</b> → to show users the basic information of the product (product name, description, price, and ‘Quick View’ button)</li>
+            <li class="thought">• <b>Click modal</b> → to show users even more information of the product efficiently, similar to other clothing websites such as Abercrombie, Forever 21, Urban Outfitters, and more (additional product images, color and size options, ‘Add to Cart’ button, and miscellaneous help links)</li>
+        </ul>
     </div>
-    <div class="container" id="solution">
-        <h1 class="subheading">Solution</h1>
+    <div class="subcontainer">
+        <h2>Alpha</h2>
+        <p>In order to keep the uniqueness of the Zara website, I decided to incorporate a scroll to view element into the very first iteration of the microinteraction. On top of that, users would be able to see the product image fade in as they scrolled, ultimately helping them be more engaged with the website. As mentioned before, I used Adobe Illustrator to create reference images to help visualize the design I had in mind. As for the build, I used CSS to add the image as the background image of a div container in HTML. From there, I mainly used JavaScript to incorporate the scroll trigger and animate the fade in effect.
+        </p>
+    </div>
+    <div class="processimages">
+        <img src="images/alphaDescription.png" class="image">
+        <p class="caption">Compilation of reference images created on Adobe Illustrator to help visualize the fade in effect</p>
+    </div>
+    <div class="subcontainer">
+        <h2>Beta</h2>
+       <p>The next phase required for me to add another trigger to the alpha microinteraction. For this requirement, I decided on adding a hover effect. Initially, I wanted the product name, description, and price to fade in upon scroll with the product image. However, after looking at a couple of clothing brand websites, I noticed that in addition to those texts, there was a button next to it. Upon further examination and research, some of these websites had a ‘Quick View’ button when hovering over the images. To simplify this process, I decided to combine these two elements and create a modal with all components in one area upon a hover trigger. For this phase, I used Adobe After Effects to show the scrolling and hover effects in play. After building out the modal on HTML and styling it using CSS, I used JavaScript to create the hover effect.
+    </p>
+    </div>
+    <div class="processanimation">
+        <img src="gif/microix_reference_beta.gif" class="animation">
+        <p class="caption">Reference animation created on Adobe After Effects to help visualize the scroll to fade in effect and modal on hover effect</p>
+    </div>
+    <div class="subcontainer">
+        <h1 class="subheading">Final Solution</h1>
+        <p>Similar to the beta phase, the final phase required a slightly more complex version for the microinteraction. Fortunately, I already had an idea of my final microinteraction. As mentioned before, I took inspiration from other existing clothing websites and decided to incorporate a ‘Quick View’ option for users to efficiently view more information about products as well as have the option to add the product to their cart once they selected the color and size options. For this final build specifically, the main objective was to  design a modal for users to see once they clicked the ‘Quick View’ button on the hover modal. This would be efficient as users would not have to click through different web pages within the website. A modal would help users to view more information about the product while on the same web page. Once they click out of the modal, they wouldn’t lose their place on the web page and continuously find more products. Likewise, I used Adobe After Effects to create a reference animation. As for the build, the first step was to create a simple modal and make sure that the modal would be displayed when the ‘Quick View’ button was clicked. Knowing that I had previously built out this modal function on a separate project, I used that project as my working sample and successfully built out the product modal for the Zara microinteraction using Javascript. I then designed the modal with all the necessary components (while using the current Zara website for product options and information) using HTML and CSS. The final part to the build of this phase was to make the modal responsive as well as incorporate console logs using Javascript to note which buttons users successfully clicked within this modal. For example, if the user had clicked the beige color option, the console log would be updated and say “User selected color Beige”.
+        </p>
+    </div>
+    <div class="processanimation">
+        <img src="gif/idm241_final.gif" class="animationFinal">
+        <p class="caption">First reference animation created on Adobe After Effects to help visualize the scroll to fade in effect, modal on hover effect, and modal on click effect</p>
+        <br>
+        <img src="gif/click_modal.gif" class="animationFinal1">
+        <p class="caption">Second reference animation created on Adobe After Effects to help visualize the different components of the final modal of the microinteraction</p>
+        <p>Here is a link to the live Final Build web page for my design and build of the Zara Microinteraction:</p>
+        <a href="https://christineyim.com/idm241-ccy29/final/build/index.html" target="blank">Final Build</a>
     </div>
     <div class="container" id="results">
         <h1 class="subheading">Results</h1>
+        <p>The process of designing and building the final microinteraction for Zara products was quite successful. The overall user experience could definitely be enhanced with this microinteraction as it would help users to conveniently and efficiently look through different products as well as view more information and options of the products. As for myself, I feel that I was definitely able to enhance my skills in HTML, CSS, and JavaScript. There have been a couple of positive feedback from my peers as they were surprised that I have learned to design and develop the microinteraction. Not only that, but I am now able to see microinteractions on different interfaces in a new light, where I find myself  ideating ways to improve user experience through microinteractions. If the timeline of this project was to be extended, I would want to design this microinteraction for not just one, but several Zara products so that I can display the products in a grid layout. If this were the case, the microinteractions would be able to be seen in a more professional and realistic way in terms of it being in an actual clothing website. Some final takeaways from this project was the importance of utilizing different resources whenever I came across small obstacles. I found that meeting with the professor, scheduling meetings with a previous co-worker from my previous Co-Op, and using online resources like Codepen.io was very helpful.
+        </p>
     </div>

@@ -95,33 +95,3 @@ img.heroImg {
     /* object-fit:cover; */
     width: 80%;
 }
-
-@media (max-width: 1500px) {
-    .slide-wrapper {
-        height: 550px;
-        max-width: 350px;
-        position: relative;
-        margin-left: 38%;
-        margin-right: 38%;
-        vertical-align: 50%;
-    } 
-}
-
-@media (max-width: 1160px) {
-    .slide-wrapper {
-        height: 450px;
-        max-width: 300px;
-        position: relative;
-        margin-left: 35%;
-        margin-right: 35%;
-        vertical-align: 50%;
-    } 
-
-@media (max-width: 900px) {
-    .slide-wrapper {
-        height: 450px;
-        max-width: 300px;
-        margin-left: 32%;
-        margin-right: 32%;
-    } 
-}
